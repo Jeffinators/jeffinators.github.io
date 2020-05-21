@@ -26,8 +26,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
-        with:
-          username: 'github-actions[bot]'
-          useremail: 'github-actions[bot]@users.noreply.github.com'
-          commitMessage: ${{ github.event.head_commit.message }}
+          PUBLISH_DIR: src/.vuepress/dist
