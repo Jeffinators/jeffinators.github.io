@@ -1,0 +1,24 @@
+{
+  "name": "jeffinators.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "npm install && vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeffinators/jeffinators.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeffinators/jeffinators.github.io/issues"
+  },
+  "homepage": "https://github.com/Jeffinators/jeffinators.github.io#readme",
+  "dependencies": {
+    "vuepress": "^1.3.1"
+  }
+}
