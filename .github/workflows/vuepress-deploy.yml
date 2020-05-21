@@ -15,7 +15,3 @@ jobs:
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: src/.vuepress/dist/
-      with:
-          username: 'github-actions[bot]'
-          useremail: 'github-actions[bot]@users.noreply.github.com'
-          commitMessage: ${{ github.event.head_commit.message }}
