@@ -24,7 +24,7 @@ jobs:
       - name: Deploy website
         uses: peaceiris/actions-gh-pages@v2.3.0
         env:
-          ACTIONS_PERSONA_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACTIONS_PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
         with:
